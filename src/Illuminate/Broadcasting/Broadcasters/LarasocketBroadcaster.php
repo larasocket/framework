@@ -11,8 +11,7 @@ class LarasocketBroadcaster extends Broadcaster
     use UsePusherChannelConventions;
 
     private const LARASOCKET_HOST = 'https://larasocket.com';
-
-    protected $larasocketHost;
+    
     protected $larasocketToken;
 
     /**
